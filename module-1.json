@@ -1,18 +1,16 @@
 [
   {
-    "Name": "Undergraduate",
-    "Course":"Web Development",
-    "Module": {
+    "Name":"Web Development",
+    "Information": {
       "Learning_outcomes":["LO1", "LO2"],
       "Assignment":["CW1", "CW2"],
-      "Volume":["1000 words", "4000 words"],
+      "Volume":["10 Tasks", "4000 words"],
       "weights":["20%", "80%"]
     }
   },
   {
-    "Name": "Post-Graduate",
-    "Course":"Big Data",
-    "Module": {
+    "Name":"Big Data",
+    "Information": {
     "Learning_outcomes":["LO1", "LO2"],
     "Assignment":["CW1", "CW2"],
     "Volume":["1000 words", "4000 words"],
@@ -20,14 +18,30 @@
     }
   },
   {
-    "Name": "Research",
-    "Course":"Data Mining",
-    "Module": {
+    "Name":"Data Mining",
+    "Information": {
       "Learning_outcomes":["LO1", "LO2"],
       "Assignment":["CW1", "CW2"],
-      "Volume":["1000 words", "4000 words"],
+      "Volume":["10 Tasks", "4000 words"],
+      "weights":["20%", "80%"]
+    }
+  },
+  {
+    "Name":"UX Design",
+    "Information": {
+      "Learning_outcomes":["LO1", "LO2"],
+      "Assignment":["CW1", "CW2"],
+      "Volume":["10 Tasks", "4000 words"],
+      "weights":["20%", "80%"]
+    }
+  },
+  {
+    "Name":"Web App Design",
+    "Information": {
+      "Learning_outcomes":["LO1", "LO2"],
+      "Assignment":["CW1", "CW2"],
+      "Volume":["10 Tasks", "4000 words"],
       "weights":["20%", "80%"]
     }
   }
-  
 ]
