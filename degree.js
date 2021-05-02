@@ -1,10 +1,12 @@
-var pageCounter = 1;
-var moduleContainer = document.getElementById('module-info');
-var btn = document.getElementById("btn");
+// var pageCounter = 1;
+// var moduleContainer = document.getElementById('module-info');
+var degreeBtn = document.getElementById("degreeBtn");
+var moduleBtn = document.getElementById("moduleBtn");
+var assessmentBtn = document.getElementById("assessmentBtn");
 
-btn.addEventListener("click", function(){
+degreeBtn.addEventListener("click", function(){
   var ourRequest = new XMLHttpRequest();
-  ourRequest.open('GET', 'https://raw.githubusercontent.com/profharimohanpandey/CW2/master/module-'+ pageCounter +'.json');
+  ourRequest.open('GET', 'https://raw.githubusercontent.com/SteColeman/CIS2169CW2/master/module.json');
   ourRequest.onload = function(){
     //console.log(ourRequest.responseText);
     var ourData = JSON.parse(ourRequest.responseText);
@@ -12,11 +14,11 @@ btn.addEventListener("click", function(){
     renderHTML(ourData);
   };
   ourRequest.send();
-pageCounter++;
-if (pageCounter > 3){
-//btn.classList.add("hide-me");
-  btn.disabled = true;
-}
+// pageCounter++;
+// if (pageCounter > 3){
+// //btn.classList.add("hide-me");
+//   btn.disabled = true;
+// }
 });
 
 function renderHTML(data){

@@ -1,33 +1,26 @@
 [
   {
-    "Name": "Undergraduate",
-    "Course":"Web Development",
-    "Module": {
-      "Learning_outcomes":["LO1", "LO2"],
-      "Assignment":["CW1", "CW2"],
-      "Volume":["1000 words", "4000 words"],
-      "weights":["20%", "80%"]
-    }
+    "ID_Code": "1003",
+    "Name":"Web Development",
+    "Award": "BSc(Hons)",
+    "Learning_outcomes":["LO1", "LO2"]
   },
   {
-    "Name": "Post-Graduate",
-    "Course":"Big Data",
-    "Module": {
-    "Learning_outcomes":["LO1", "LO2"],
-    "Assignment":["CW1", "CW2"],
-    "Volume":["1000 words", "4000 words"],
-    "weights":["20%", "80%"]
-    }
+    "ID_Code": "1004",
+    "Name":"Networking & Forensics",
+    "Award": "BSC(Hons)",
+    "Learning_outcomes":["LO1", "LO2"]
   },
   {
-    "Name": "Research",
-    "Course":"Data Mining",
-    "Module": {
-      "Learning_outcomes":["LO1", "LO2"],
-      "Assignment":["CW1", "CW2"],
-      "Volume":["1000 words", "4000 words"],
-      "weights":["20%", "80%"]
-    }
-    
+    "ID_Code": "4201",
+    "Name":"Computing",
+    "Award": "Msc",
+    "Learning_outcomes":["LO1", "LO2"]
+  },
+  {
+    "ID_Code": "5690",
+    "Name":"Computer Science",
+    "Award": "PhD",
+    "Learning_outcomes":["LO1", "LO2"]
   }
 ]

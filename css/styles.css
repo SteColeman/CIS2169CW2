@@ -1,0 +1,22 @@
+/* GLOBAL STYLES */
+body {
+    margin: 2rem;
+    font-family: sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* NAV BAR*/
+nav {
+    display: flex;
+    width: 100%;
+}
+ul {
+    display: flex;
+}

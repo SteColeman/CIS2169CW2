@@ -1,0 +1,47 @@
+[
+  {
+    "Name":"Data Driven Design",
+    "ID_Code": "CIS0001",
+    "Information": {
+      "Learning_outcomes":["LO1", "LO2"],
+      "Credits":["20"],
+      "Asssesments":["CW1", "CW2"]
+    }
+  },
+  {
+    "Name":"Big Data",
+    "ID_Code": "CIS0002",
+    "Information": {
+    "Learning_outcomes":["LO1", "LO2"],
+    "Credits":["20"],
+    "Asssesments":["CW1", "CW2"]
+    }
+  },
+  {
+    "Name":"Data Mining",
+    "ID_Code": "CIS0003",
+    "Information": {
+      "Learning_outcomes":["LO1", "LO2"],
+      "Credits":["20"],
+      "Asssesments":["CW1", "CW2"]
+    }
+  },
+  {
+    "Name":"UX Design",
+    "ID_Code": "CIS0004",
+    "Information": {
+      "Learning_outcomes":["LO1", "LO2"],
+      "Credits":["20"],
+      "Asssesments":["CW1", "CW2"]
+    }
+  },
+  {
+    "Name":"Web App Development",
+    "ID_Code": "CIS0005",
+    "Information": {
+      "Learning_outcomes":["LO1", "LO2"],
+      "Credits":["20"],
+      "Asssesments":["CW1", "CW2"]
+    }
+  }
+]
