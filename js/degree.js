@@ -3,7 +3,7 @@ var degreeBtn = document.getElementById("degreeBtn");
 
 degreeBtn.addEventListener("click", function(){
   var ourRequest = new XMLHttpRequest();
-  ourRequest.open('GET', 'https://raw.githubusercontent.com/SteColeman/CIS2169CW2/master/degree.json');
+  ourRequest.open('GET', 'https://raw.githubusercontent.com/SteColeman/CIS2169CW2/master/json/degree.json');
   ourRequest.onload = function(){
     var ourData = JSON.parse(ourRequest.responseText);
     renderHTML(ourData);

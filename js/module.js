@@ -3,7 +3,7 @@ var moduleBtn = document.getElementById("moduleBtn");
 
 moduleBtn.addEventListener("click", function(){
   var ourRequest = new XMLHttpRequest();
-  ourRequest.open('GET', 'https://raw.githubusercontent.com/SteColeman/CIS2169CW2/master/module.json');
+  ourRequest.open('GET', 'https://raw.githubusercontent.com/SteColeman/CIS2169CW2/master/json/module.json');
   ourRequest.onload = function(){
     var ourData = JSON.parse(ourRequest.responseText);
     renderHTML(ourData);
