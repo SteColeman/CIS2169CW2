@@ -16,9 +16,9 @@ function renderHTML(data){
   var htmlString = "";
 
   for(i = 0; i < data.length; i++){
-    htmlString += "<p>" + data[i].ID_Code + " - " + data[i].Name + " is worth a total of "
-    + data[i].Information.Credits + " credits. It contains " + data[i].Information.Learning_outcomes.length
-     + " Learning Outcomes and has " + data[i].Information.Learning_outcomes.length + " assessments " ; //".</p>";
+    htmlString += "<p>" + data[i].ID_Code + " - " + data[i].Name + " is worth a total of " +
+    data[i].Information.Credits + " credits. It contains " + data[i].Information.Learning_outcomes.length +
+    " Learning Outcomes and has " + data[i].Information.Learning_outcomes.length + " assessments " ; //".</p>";
 
     htmlString += " The Learning Outcome's are ";
     for(ii = 0; ii < data[i].Information.Learning_outcomes.length; ii++){

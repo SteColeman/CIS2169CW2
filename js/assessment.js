@@ -16,9 +16,9 @@ function renderHTML(data){
   var htmlString = "";
 
   for(i = 0; i < data.length; i++){
-    htmlString += "<p>" + data[i].ID_Code + " - " + data[i].Module_name + " - "
-    + data[i].Assessment_info.Title + ", is assessment number  " + data[i].Assessment_info.Number 
-     + "covering Learning Outcomes " + data[i].Assessment_info.LO_overed + " with a volume of " + 
+    htmlString += "<p>" + data[i].ID_Code + " - " + data[i].Module_name + " - " +
+    data[i].Assessment_info.Title + ", is assessment number  " + data[i].Assessment_info.Number +
+    "covering Learning Outcomes " + data[i].Assessment_info.LO_overed + " with a volume of " + 
      data[i].Assessment_info.Volume + " and a weighting of " + data[i].Assessment_info.Weighting ; 
   }
 
