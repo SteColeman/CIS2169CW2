@@ -5,16 +5,16 @@
     "Information": {
       "Learning_outcomes":["LO1", "LO2"],
       "Credits":["20"],
-      "Asssesments":["CW1", "CW2"]
+      "Assessments":["CW1", "CW2"]
     }
   },
   {
     "Name":"Big Data",
     "ID_Code": "CIS0002",
     "Information": {
-    "Learning_outcomes":["LO1", "LO2"],
-    "Credits":["20"],
-    "Asssesments":["CW1", "CW2"]
+      "Learning_outcomes":["LO1", "LO2"],
+      "Credits":["20"],
+      "Assessments":["CW1", "CW2"]
     }
   },
   {
@@ -23,7 +23,7 @@
     "Information": {
       "Learning_outcomes":["LO1", "LO2"],
       "Credits":["20"],
-      "Asssesments":["CW1", "CW2"]
+      "Assessments":["CW1", "CW2"]
     }
   },
   {
@@ -32,7 +32,7 @@
     "Information": {
       "Learning_outcomes":["LO1", "LO2"],
       "Credits":["20"],
-      "Asssesments":["CW1", "CW2"]
+      "Assessments":["CW1", "CW2"]
     }
   },
   {
@@ -41,7 +41,7 @@
     "Information": {
       "Learning_outcomes":["LO1", "LO2"],
       "Credits":["20"],
-      "Asssesments":["CW1", "CW2"]
+      "Assessments":["CW1", "CW2"]
     }
   }
 ]
