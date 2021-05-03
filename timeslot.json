@@ -1,0 +1,49 @@
+[
+    {
+      "Name":"Data Driven Design",
+      "ID_Code": "CIS0001",
+      "Information": {
+        "Academic": "Hari Pandey",
+        "Room": "THG01",
+        "Timeslot": "Monday 9:00"
+
+      }
+    },
+    {
+      "Name":"Big Data",
+      "ID_Code": "CIS0002",
+      "Information": {
+        "Academic": "Dave Walsh",
+        "Room": "THF05",
+        "Timeslot": "Monday 12:30"
+      }
+    },
+    {
+      "Name":"Data Mining",
+      "ID_Code": "CIS0003",
+      "Information": {
+        "Academic": "Peter Matthews",
+        "Room": "THG08",
+        "Timeslot": "Tuesday 13:00"
+      }
+    },
+    {
+      "Name":"UX Design",
+      "ID_Code": "CIS0004",
+      "Information": {
+        "Academic": "Dave Walsh",
+        "Room": "THG01",
+        "Timeslot": "Tuesday 9:00"
+      }
+    },
+    {
+      "Name":"Web App Development",
+      "ID_Code": "CIS0005",
+      "Information": {
+        "Academic": "Hari Pandey",
+        "Room": "THF04",
+        "Timeslot": "Thursday 11:00"
+      }
+    }
+  ]
+  

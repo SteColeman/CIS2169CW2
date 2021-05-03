@@ -37,6 +37,10 @@ function renderHTML(data){
         htmlString += " and " + data[i].Information.Assessments[ii];
       }
     }
+
+    for(i = 0; i < data.length; i++){
+    htmlString += " The module leader is " + data[i].Academic_lead;
+    }
   }
 
   moduleContainer.insertAdjacentHTML('beforeend', htmlString);

@@ -16,9 +16,9 @@ function renderHTML(data){
   var htmlString = "";
 
   for(i = 0; i < data.length; i++){
-    htmlString += "<p>" + data[i].ID_Code + " - " + data[i].Name + " is a"
+    htmlString += "<p>" + data[i].ID_Code + " - " + data[i].Name + " is a "
     + data[i].Award + " course. It contains " + data[i].Learning_outcomes.length
-     + " Learning Outcomes";
+     + " Learning Outcomes.";
 
     htmlString += " The Learning Outcome's are ";
     for(ii = 0; ii < data[i].Learning_outcomes.length; ii++){

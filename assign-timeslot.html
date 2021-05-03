@@ -9,14 +9,48 @@
   <header>
     <nav>
       <ul>
-        <li href="index.html">Home</li>
+        <li><a href="index.html">Home</a></li>
         <li>Degree Programmes</li>
         <li>Modules</li>
         <li>Module Timeslots</li>
       </ul>
     </nav>
 
-    <h1>Edge Hill University course creation tool</h1>
+    <h1>Timeslot Assignation</h1>
+
+    <form action="">
+
+      <label for="">Module</label>
+      <select name="moduleName">
+        <option value="Data Driven Design"></option>
+        <option value="Big Data"></option>
+        <option value="Data Mining"></option>
+        <option value="UX Design"></option>
+        <option value="Web App Development"></option>
+      </select>
+
+      <label for="">Module ID Code</label>
+      <input type="number" placeholder="0151">
+
+      <label for="">Academic Name</label>
+      <select name="academicName">
+        <option value="Dave Walsh"></option>
+        <option value="Hari Pandey"></option>
+        <option value="Nick Bessis"></option>
+        <option value="Shirley Hunter-Barnett"></option>
+        <option value="Peter Matthews"></option>
+      </select>
+
+      <label for="">Room Number</label>
+      <input type="text" placeholder="THG01">
+
+      <label for="">Timeslot</label>
+      <input type="text" placeholder="Wednesday 9:00">
+
+    </form>
+
+    <a href="timeslots.html"><button>Add timeslot to module</button></a>
+
 
 
   <script src="main.js"></script>

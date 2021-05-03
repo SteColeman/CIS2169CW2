@@ -5,7 +5,8 @@
     "Information": {
       "Learning_outcomes":["LO1", "LO2"],
       "Credits":["20"],
-      "Assessments":["CW1", "CW2"]
+      "Assessments":["CW1", "CW2"],
+      "Academic_lead": "Hari Pandey"
     }
   },
   {
@@ -14,7 +15,8 @@
     "Information": {
       "Learning_outcomes":["LO1", "LO2"],
       "Credits":["20"],
-      "Assessments":["CW1", "CW2"]
+      "Assessments":["CW1", "CW2"],
+      "Academic_lead": "Dave Walsh"
     }
   },
   {
@@ -23,7 +25,8 @@
     "Information": {
       "Learning_outcomes":["LO1", "LO2"],
       "Credits":["20"],
-      "Assessments":["CW1", "CW2"]
+      "Assessments":["CW1", "CW2"],
+      "Academic_lead": "Peter Matthews"
     }
   },
   {
@@ -32,7 +35,8 @@
     "Information": {
       "Learning_outcomes":["LO1", "LO2"],
       "Credits":["20"],
-      "Assessments":["CW1", "CW2"]
+      "Assessments":["CW1", "CW2"],
+      "Academic_lead": "Dave Walsh"
     }
   },
   {
@@ -41,7 +45,8 @@
     "Information": {
       "Learning_outcomes":["LO1", "LO2"],
       "Credits":["20"],
-      "Assessments":["CW1", "CW2"]
+      "Assessments":["CW1", "CW2"],
+      "Academic_lead": "Hari Pandey"
     }
   }
 ]

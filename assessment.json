@@ -1,0 +1,91 @@
+[
+    {
+      "Module_name":"Data Driven Design",
+      "ID_Code": "CIS0001",
+      "Assessment_info": {
+        "Title": "Coursework 1",
+        "Number": "1",
+        "LO_covered": "LO1",
+        "Volume": "2000",
+        "Weighting": "20%"
+      }
+    },
+    {
+      "Module_name":"Data Driven Design",
+      "ID_Code": "CIS0001",
+      "Assessment_info": {
+        "Title": "Coursework 2",
+        "Number": "1",
+        "LO_covered": "LO2",
+        "Volume": "4000",
+        "Weighting": "80%"
+      }
+    },
+    {
+      "Module_name":"Big Data",
+      "ID_Code": "CIS0002",
+      "Assessment_info": {
+        "Title": "Coursework 1",
+        "Number": "1",
+        "LO_covered": "LO1",
+        "Volume": "2000",
+        "Weighting": "20%"
+      }
+    },
+    {
+      "Module_name":"Big Data",
+      "ID_Code": "CIS0002",
+      "Assessment_info": {
+        "Title": "Coursework 1",
+        "Number": "2",
+        "LO_covered": "LO2",
+        "Volume": "3000",
+        "Weighting": "80%"
+      }
+    },
+    {
+      "Module_name":"Data Mining",
+      "ID_Code": "CIS0003",
+      "Assessment_info": {
+        "Title": "Coursework 1",
+        "Number": "1",
+        "LO_covered": "LO1, LO2",
+        "Volume": "7000",
+        "Weighting": "100%"
+      }
+    },
+    {
+      "Module_name":"UX Design",
+      "ID_Code": "CIS0004",
+      "Assessment_info": {
+        "Title": "Coursework 1",
+        "Number": "1",
+        "LO_covered": "LO1",
+        "Volume": "5000",
+        "Weighting": "100%"
+      }
+    },
+    {
+      "Module_name":"Web App Development",
+      "ID_Code": "CIS0005",
+      "Assessment_info": {
+        "Title": "Coursework 1",
+        "Number": "1",
+        "LO_covered": "LO1",
+        "Volume": "2000",
+        "Weighting": "20%"
+      }
+    },
+    {
+      "Module_name":"Web App Development",
+      "ID_Code": "CIS0005",
+      "Assessment_info": {
+        "Title": "Coursework 2",
+        "Number": "1",
+        "LO_covered": "LO2",
+        "Volume": "4000",
+        "Weighting": "80%"
+      }
+    }
+  ]
+  
