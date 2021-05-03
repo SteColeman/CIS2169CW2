@@ -3,7 +3,7 @@ var degreeBtn = document.getElementById("degreeBtn");
 
 degreeBtn.addEventListener("click", function(){
   var ourRequest = new XMLHttpRequest();
-  ourRequest.open('GET', 'https://raw.githubusercontent.com/SteColeman/CIS2169CW2/master/module.json');
+  ourRequest.open('GET', 'https://raw.githubusercontent.com/SteColeman/CIS2169CW2/master/degree.json');
   ourRequest.onload = function(){
     var ourData = JSON.parse(ourRequest.responseText);
     renderHTML(ourData);
@@ -21,11 +21,11 @@ function renderHTML(data){
      + " Learning Outcomes";
 
     htmlString += " The Learning Outcome's are ";
-    for(ii = 0; ii < data[i].Information.Learning_outcomes.length; ii++){
+    for(ii = 0; ii < data[i].Learning_outcomes.length; ii++){
       if (ii == 0){
-        htmlString += data[i].Information.Learning_outcomes[ii];
+        htmlString += data[i].Learning_outcomes[ii];
       } else {
-        htmlString += " and " + data[i].Information.Learning_outcomes[ii];
+        htmlString += " and " + data[i].Learning_outcomes[ii];
       }
     }
     }
