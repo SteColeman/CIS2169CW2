@@ -1,7 +1,7 @@
 var moduleContainer = document.getElementById('module-info');
-var moduleBtn = document.getElementById("timeslotBtn");
+var timeslotBtn = document.getElementById("timeslotBtn");
 
-moduleBtn.addEventListener("click", function(){
+timeslotBtn.addEventListener("click", function(){
   var ourRequest = new XMLHttpRequest();
   ourRequest.open('GET', 'https://raw.githubusercontent.com/SteColeman/CIS2169CW2/master/json/timeslot.json');
   ourRequest.onload = function(){

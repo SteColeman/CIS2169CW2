@@ -7,7 +7,8 @@
         "Number": "1",
         "LO_covered": "LO1",
         "Volume": "2000",
-        "Weighting": "20%"
+        "Weighting": "20%",
+        "Submission_date" : "18/10/2021"
       }
     },
     {
@@ -18,7 +19,9 @@
         "Number": "1",
         "LO_covered": "LO2",
         "Volume": "4000",
-        "Weighting": "80%"
+        "Weighting": "80%",
+        "Submission_date" : "20/12/2021"
+
       }
     },
     {
@@ -29,7 +32,8 @@
         "Number": "1",
         "LO_covered": "LO1",
         "Volume": "2000",
-        "Weighting": "20%"
+        "Weighting": "20%",
+        "Submission_date" : "18/10/2021"
       }
     },
     {
@@ -40,7 +44,8 @@
         "Number": "2",
         "LO_covered": "LO2",
         "Volume": "3000",
-        "Weighting": "80%"
+        "Weighting": "80%",
+        "Submission_date" : "20/12/2021"
       }
     },
     {
@@ -51,7 +56,8 @@
         "Number": "1",
         "LO_covered": "LO1, LO2",
         "Volume": "7000",
-        "Weighting": "100%"
+        "Weighting": "100%",
+        "Submission_date" : "20/12/2021"
       }
     },
     {
@@ -62,7 +68,8 @@
         "Number": "1",
         "LO_covered": "LO1",
         "Volume": "5000",
-        "Weighting": "100%"
+        "Weighting": "100%",
+        "Submission_date" : "20/12/2021"
       }
     },
     {
@@ -73,7 +80,8 @@
         "Number": "1",
         "LO_covered": "LO1",
         "Volume": "2000",
-        "Weighting": "20%"
+        "Weighting": "20%",
+        "Submission_date" : "20/12/2021"
       }
     },
     {
@@ -84,7 +92,8 @@
         "Number": "1",
         "LO_covered": "LO2",
         "Volume": "4000",
-        "Weighting": "80%"
+        "Weighting": "80%",
+        "Submission_date" : "18/10/2021"
       }
     }
   ]

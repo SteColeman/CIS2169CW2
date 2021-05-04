@@ -1,7 +1,7 @@
 var moduleContainer = document.getElementById('module-info');
-var moduleBtn = document.getElementById("assessmenttBtn");
+var assessmentBtn = document.getElementById("assessmentBtn");
 
-moduleBtn.addEventListener("click", function(){
+assessmentBtn.addEventListener("click", function(){
   var ourRequest = new XMLHttpRequest();
   ourRequest.open('GET', 'https://raw.githubusercontent.com/SteColeman/CIS2169CW2/master/json/timeslot.json');
   ourRequest.onload = function(){
@@ -19,7 +19,8 @@ function renderHTML(data){
     htmlString += "<p>" + data[i].ID_Code + " - " + data[i].Module_name + " - " +
     data[i].Assessment_info.Title + ", is assessment number  " + data[i].Assessment_info.Number +
     "covering Learning Outcomes " + data[i].Assessment_info.LO_overed + " with a volume of " + 
-     data[i].Assessment_info.Volume + " and a weighting of " + data[i].Assessment_info.Weighting ; 
+    data[i].Assessment_info.Volume + " and a weighting of " + data[i].Assessment_info.Weighting + 
+    ". The Submission date is " + data[i].Assessment_info.Submission_date; 
   }
 
   moduleContainer.insertAdjacentHTML('beforeend', htmlString);
