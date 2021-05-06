@@ -13,7 +13,7 @@
     "Name":"Big Data",
     "ID_Code": "CIS0002",
     "Information": {
-      "Learning_outcomes":["LO1", "LO2"],
+      "Learning_outcomes":["LO1", "LO2, LO3, LO4"],
       "Credits":["20"],
       "Assessments":["CW1", "CW2"],
       "Academic_lead": "Dave Walsh"
@@ -23,7 +23,7 @@
     "Name":"Data Mining",
     "ID_Code": "CIS0003",
     "Information": {
-      "Learning_outcomes":["LO1", "LO2"],
+      "Learning_outcomes":["LO1", "LO2, LO3, LO4, LO5"],
       "Credits":["20"],
       "Assessments":["CW1", "CW2"],
       "Academic_lead": "Peter Matthews"
@@ -43,7 +43,7 @@
     "Name":"Web App Development",
     "ID_Code": "CIS0005",
     "Information": {
-      "Learning_outcomes":["LO1", "LO2"],
+      "Learning_outcomes":["LO1", "LO2, LO3"],
       "Credits":["20"],
       "Assessments":["CW1", "CW2"],
       "Academic_lead": "Hari Pandey"

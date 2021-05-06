@@ -16,20 +16,10 @@ function renderHTML(data){
   var htmlString = "";
 
   for(i = 0; i < data.length; i++){
-    htmlString += "<p>" + data[i].ID_Code + " - " + data[i].Name + " is a "
-    + data[i].Award + " course. It contains " + data[i].Learning_outcomes.length
-     + " Learning Outcomes.";
-
-    htmlString += " The Learning Outcome's are ";
-    for(ii = 0; ii < data[i].Learning_outcomes.length; ii++){
-      if (ii == 0){
-        htmlString += data[i].Learning_outcomes[ii];
-      } else {
-        htmlString += " and " + data[i].Learning_outcomes[ii];
-      }
-    }
-    }
-
+    htmlString += "<p>" + data[i].ID_Code + " - " + data[i].Name + " is a " +
+    data[i].Award + " course. It contains " + data[i].Learning_outcomes.length +
+    " Learning Outcomes. The Learning Outcome's are " + data[i].Learning_outcomes;
+  }
 
   moduleContainer.insertAdjacentHTML('beforeend', htmlString);
 
